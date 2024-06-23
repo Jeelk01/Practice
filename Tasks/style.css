@@ -1,0 +1,138 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 550px;
+    /* height: 500px; */
+    margin: auto;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.submain{
+    /* margin: 20px 20px; */
+    margin: 22px auto;
+    
+}
+
+.input-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    border: 2px solid rgb(35, 35, 35);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color : green;
+    /* box-shadow: 0px 0px 10px 0px; */
+}
+
+.task-main{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid green;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    margin: 3px auto;
+}
+
+.task-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid transparent;
+    
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(24, 24, 24);
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.task-text:hover{
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.task-main-sub{
+    margin: 5px 20px;
+}
+
+.submain-task{
+    
+}
+
+.sub-input-main{
+    margin: auto 20px;
+}
+
+#Add{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(24, 24, 24);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: cursive;
+}
+
+#Add:hover{
+    box-shadow: 0px 0px 5px 0px;
+    scale: 103%;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(24, 24, 24);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: larger;
+    font-family: cursive;
+}
+
+input[type=text]{
+    padding-left: 15px;
+}
+
+input:focus{
+    scale: 103%;
+    color: green;
+    border: 1px solid rgb(0, 172, 0);
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.buttons{
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: 5px;
+    color: white;
+    
+    background-color: rgb(24, 24, 24);
+    /* font-family: cursive; */
+
+}
+
+.buttons:hover{
+    box-shadow: 0px 0px 5px 0px;
+    scale: 103%;
+}
