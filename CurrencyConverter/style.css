@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:70dvh;
+    background-color: #F9DC5CFF;
+}
+
+.main{
+    width: 25vw;
+    height: 60vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #F4FFFDFF;
+    min-height: 20rem;
+    min-width: 20rem;
+
+}
+
+.submain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.input{
+    margin: 20px;
+}
+
+.subinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text]{
+    width: 100%;
+    margin: 2px;
+    border: 1px solid rgb(47, 65, 88);
+    box-sizing: border-box;
+    height: 2rem;
+    border-radius: 0.3rem;
+    padding-left: 20px;
+}
+
+::placeholder{
+    color: #011936FF;
+    font-family: cursive;
+    font-size: larger;
+}
+
+
+.img,.dropdown,.from-to{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img{
+    height: auto;
+    width: auto;
+    border: 1px solid #F4FFFDFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.fttext{
+    margin: 10px;
+    color: #011936FF;
+    font-family: cursive;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem ;
+    color: #ED254E;
+    font-size: 1.75em;
+    font-family: cursive;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #F4FFFDFF;
+    box-sizing: border-box;
+    border-radius: 0.7rem;
+    background-color: #011936FF;
+    color: #F4FFFDFF;
+    margin: 10px 10px;
+}
+
+select{
+    margin: 0px 5px 5px 5px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    margin: 5px;
+    color: #011936FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #ED254E; */
+    height: 4rem;
+    margin: 10px 20px;
+
+}
+
+.outputtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2em;
+    width: 93%;
+    border: 1px solid #011936FF;
+    border-radius: 0.5em;
+    color: #011936FF;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: larger;
+}

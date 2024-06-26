@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curremc Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="text">Currency Converter</div>
+
+        <div class="input">
+            <div class="subinput">
+                <input type="text" placeholder="Enter Amount" id="Amount">
+            </div>
+        </div>
+
+        <div class="submain from-to">
+            <div class="fttext">from</div>
+            <div class="fttext">to</div>
+        </div>
+
+        <div class="img submain">
+            <img src="https://flagsapi.com/IN/flat/64.png" alt="imageFlag" id="flagimage1">
+            
+            <img src="https://flagsapi.com/US/flat/64.png" alt="imageFlag" id="flagimage2">
+        </div>
+        <div class="dropdown submain">
+            <select name="selection1" id="selectList1">
+
+            </select>
+
+            <select name="selection2" id="selectList2">
+
+            </select>
+        </div>
+
+        <div class="output submain">
+            <div class="outputtext">
+                </div>
+        </div>
+        
+
+        <div class="submain">
+            <button id="Convert">
+                Convert
+            </button>
+        </div>
+    </div>
+    <script src="Country.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
