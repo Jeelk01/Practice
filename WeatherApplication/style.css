@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: fixed;
+    background-color: royalblue;
+    font-family: serif;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8rem auto;
+    height: 600px;
+    width: 1000px;
+}
+
+.submain{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 400px;
+    height: 500px;
+}
+
+.inputs{
+    max-height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 0.8em;
+}
+
+.outputs{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 0.8em;
+}
+
+.heading{
+    color: royalblue;
+    
+    width: 400px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.List-items{
+    width: 400px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.List-items ul{
+    list-style: none;
+}
+
+.List-items ul li{
+    width: 355px;
+    box-sizing: border-box;
+    padding: 10px 22px;
+    background: transparent;
+    border-radius: 5px;
+    color: gray;
+    
+    font-size: 16px;
+}
+
+.List-items ul li:hover{
+    background-color: rgb(228, 235, 255);
+}
+
+.city-input{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 30px auto 5px auto;
+}
+
+.city-input input{
+    width: 355px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    
+    font-size: x-large;
+}
+
+::placeholder{
+
+    box-sizing: border-box;
+    
+    font-size: 20px;
+    color: gray;
+    opacity: 0.8;
+}
+
+.Submits{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 30px auto;
+}
+
+button{
+    width: 355px;
+    height: 50px;
+    border: none;
+    background-color: royalblue;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(34, 71, 182);
+}
+
+.condition-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 30px auto 15px auto;
+}
+
+.condition-img img{
+    width: 120px;
+    height: 120px;
+}
+
+.DisplayTemp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    
+}
+
+.DisplayCond{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    
+    max-width: 300px;
+}
+
+.DisplayLocation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 10px auto;
+    
+    font-size: 20px;
+}
+
+i{
+    margin-right: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.Observation{
+    width: 200px;
+    height: 60px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.obs-info-text{
+    
+    font-size: 20px;
+}
+
+.obs-fixed-text{
+    
+    font-size: 12px;
+}

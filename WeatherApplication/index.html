@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7eb41a9bdc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="submain">
+            <div class="inputs">
+               <div class="heading">
+                    EveryDay Weather
+               </div>     
+               
+               <div class="city-input">
+                    <input type="text" placeholder="Enter city name" id="City-name">
+               </div>
+
+               <div class="List-items">
+                    
+               </div>
+
+               <div class="Submits">
+                    <button id="SubmitButton">
+                        Search City
+                    </button>
+               </div>
+            </div>
+        </div>
+
+        <div class="submain">
+            <div class="outputs">
+               <div class="heading">
+                    EveryDay Weather
+               </div> 
+
+               <div class="condition-img">
+                    <img src="#" alt="Condition" id="Condition">
+               </div>
+
+               <div class="DisplayTemp">
+                    <p class="Temp-text">x<sup>o </sup>C</p>
+               </div>
+
+               <div class="DisplayCond">
+                    <p class="Cond-text"> Feels like nothing</p>
+               </div>
+
+               <div class="DisplayLocation">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="Location-text">xyz , abc</p>
+
+               </div>
+
+               <div class="container">
+                    <div class="Observation">
+                        <i class="fa-solid fa-temperature-quarter fa-2xl" style="color: #7a97f0;"></i>
+                        <div class="Obs-text">
+                            <div class="obs-info-text" id="Real-feel">
+                                x<sup>o </sup>C
+                            </div>
+                            <div class="obs-fixed-text">
+                                Feels like
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Observation">
+                        <i class="fa-solid fa-droplet fa-2xl" style="color: #7a97f0;"></i>
+                        <div class="Obs-text">
+                            <div class="obs-info-text" id="humidity">
+                                x%
+                            </div>
+                            <div class="obs-fixed-text">
+                                Humidity
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="city.js"></script>
+    <script src="script.js"></script>    
+</body>
+
+</html>
