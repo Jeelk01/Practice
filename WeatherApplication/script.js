@@ -7,7 +7,7 @@ const ListItems = document.querySelector(".List-items");
 const ConditionText = document.querySelector(".Cond-text");
 const RealFeel = document.querySelector("#Real-feel");
 const Humidity = document.querySelector("#humidity");
-
+const HomeButton = document.querySelector("#homebutton")
 
 // http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${location}&aqi=no
 const BaseURL = "http://api.weatherapi.com/v1/current.json?key=46122bfca2404410a8190215242806";
@@ -21,6 +21,7 @@ console.log(ListItems);
 console.log(ConditionText);
 console.log(RealFeel);
 console.log(Humidity);
+console.log(HomeButton);
 
 
 function SelectItem (keyword){
@@ -38,10 +39,19 @@ function DisplayList(result){
     ListItems.innerHTML = `<ul> ` + keywordList.join('') + `</ul>`;
 }
 
+function Home(){
+    let HomeClass = HomeButton.className;
+    
+    if(HomeClass == 'rehome'){
+        HomeButton.className = 'dehome';
+    }else{
+        HomeButton.className = 'rehome';
+    }
+}
+
 InputText.onkeyup = function(){
     let input = InputText.value;
-    console.log(input);
-    console.log(input);
+    
     let result = [];
 
     if(input.length){
@@ -74,3 +84,4 @@ async function WeatherUpdate(){
 }
 
 SubmitButton.addEventListener("click",WeatherUpdate);
+HomeButton.addEventListener("click",Home);
